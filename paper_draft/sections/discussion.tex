@@ -1,0 +1,11 @@
+\section{Discussion}
+\label{sec:discussion}
+\para{What we learn from directional but non-significant gains.} The experiment supports the hypothesis in direction but not in corrected significance. For \gptfourone, anti-consensus prompting lowers overlap with crowd discourse, which is the core behavior we seek to measure. However, small sample size (18 outputs per condition), noisy consensus proxies, and metric variance limit inferential strength.
+
+\para{Proxy quality is the central bottleneck.} Mined subreddit overlap captures social obviousness only imperfectly. Title ambiguity, retrieval limits, and false positives from naive mining can inflate or obscure overlap. Our direct title-hit robustness signal is more interpretable, but still not a gold-standard annotation of ``obvious vs genuinely underrated.''
+
+\para{Evaluation validity requires output reliability.} The \gptfive anti-consensus runs show that prompt-format incompatibility can dominate novelty conclusions. If structured extraction fails, novelty metrics become artifacts of parsing and matching. This reinforces that benchmark validity depends on robust output controls (schema/tool-calling, retries, and strict validation).
+
+\para{Broader implications.} A well-calibrated underratedness diagnostic could become a useful stress test for ideation-oriented LLM use, similar in spirit to serendipity tests in recommender systems \citep{xi2025seral}. Our results suggest that anti-consensus prompting can help, but benchmark design must separate social popularity, quality, and extraction reliability.
+
+\para{Limitations.} We use \movielens small, which misses many recent and long-tail titles. We run only two repetitions per cell, limiting power. We focus on movies only, so generalization to books, music, tools, or scientific ideas remains open. Finally, we do not include human annotation in this pilot, so the overlap proxy is not fully validated.

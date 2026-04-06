@@ -1,0 +1,37 @@
+\documentclass{article}
+\usepackage[final]{neurips_2025}  % NEURIPS style (neurips_2025.sty is in paper_draft/)
+\usepackage[hidelinks]{hyperref}  % REQUIRED: clickable links
+\usepackage{booktabs}  % REQUIRED: professional tables
+\usepackage{graphicx}
+\usepackage{amsmath,amssymb}
+\newcommand{\algorithmicindent}{9pt}
+\makeatletter
+\providecommand{\@trackname}{}
+\makeatother
+
+% Import command files
+\input{commands/math}
+\input{commands/general}
+\input{commands/macros}
+
+\title{Can ``Most Underrated'' Prompts Diagnose LLM Novelty? A Data-Grounded Anti-Consensus Evaluation}
+
+% Use this bibliography style:
+\bibliographystyle{plainnat}
+
+\author{Ari Holtzman and NeuriCo}
+
+\begin{document}
+\maketitle
+
+\input{sections/abstract}
+\input{sections/introduction}
+\input{sections/related_work}
+\input{sections/methodology}
+\input{sections/results}
+\input{sections/discussion}
+\input{sections/conclusion}
+
+\bibliography{references}
+
+\end{document}

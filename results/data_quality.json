@@ -1,0 +1,9 @@
+{
+  "n_movies": 9742,
+  "n_ratings_rows": 100836,
+  "missing_avg_rating": 0.0,
+  "missing_rating_count": 0.0,
+  "duplicate_movieid": 0,
+  "reddit_posts_collected": 3600,
+  "runtime_seconds": 499.56261706352234
+}

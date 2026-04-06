@@ -1,0 +1,27 @@
+{
+  "success": true,
+  "stages": {
+    "resource_finder": {
+      "success": true,
+      "completion_marker": "/workspaces/underrated-metric-nlp-f82f-codex/.resource_finder_complete",
+      "outputs": {
+        "literature_review": "/workspaces/underrated-metric-nlp-f82f-codex/literature_review.md",
+        "resources_catalog": "/workspaces/underrated-metric-nlp-f82f-codex/resources.md",
+        "papers_dir": "/workspaces/underrated-metric-nlp-f82f-codex/papers",
+        "datasets_dir": "/workspaces/underrated-metric-nlp-f82f-codex/datasets",
+        "code_dir": "/workspaces/underrated-metric-nlp-f82f-codex/code"
+      },
+      "log_file": "/workspaces/underrated-metric-nlp-f82f-codex/logs/resource_finder_codex.log",
+      "transcript_file": "/workspaces/underrated-metric-nlp-f82f-codex/logs/resource_finder_codex_transcript.jsonl",
+      "elapsed_time": 497.1514482498169
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 3330.1555531024933,
+      "log_file": "/workspaces/underrated-metric-nlp-f82f-codex/logs/execution_codex.log",
+      "transcript_file": "/workspaces/underrated-metric-nlp-f82f-codex/logs/execution_codex_transcript.jsonl"
+    }
+  },
+  "work_dir": "/workspaces/underrated-metric-nlp-f82f-codex"
+}

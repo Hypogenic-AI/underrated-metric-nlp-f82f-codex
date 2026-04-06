@@ -1,0 +1,9 @@
+\section{Related Work}
+\label{sec:related_work}
+\para{Decoding degeneration and diversity.} Neural text generation studies show that high-probability decoding can collapse into bland or repetitive outputs \citep{holtzman2019curious}. Diversity-aware decoding such as diverse beam search mitigates this by explicitly penalizing candidate similarity \citep{vijayakumar2016diverse}. These findings motivate our hypothesis that baseline ``underrated'' prompts may default to socially safe answers.
+
+\para{Novelty and creativity interventions.} Recent approaches improve novelty at inference time through candidate diversification and post-hoc judging \citep{franceschelli2024creative}, or through multi-view prompting without model retraining \citep{lagzian2025multinovelty}. We test a simpler intervention family: anti-consensus instructions with and without reasoned justification constraints.
+
+\para{Novelty evaluation metrics.} Distribution-level metrics such as MAUVE \citep{pillutla2021mauve} and lexical diversity indicators are useful but do not directly measure whether an answer is an ``obvious underrated pick.'' Recommendation work formalizes novelty@k and relevance trade-offs \citep{sharma2024optimizing}, while serendipity frameworks emphasize unexpected yet useful results \citep{xi2025seral,yong2025dynamic}. Our metric design follows this logic by separating anti-consensus behavior from quality proxies.
+
+\para{Benchmark construction for novelty detection.} Emerging work on scientific novelty detection highlights the challenge of building robust novelty ground truth \citep{liu2025novelty}. Our setting has the same issue: social consensus data are noisy and incomplete. Unlike prior general novelty metrics, we target a concrete user-facing prompt pattern and explicitly report robustness gaps in consensus-ground-truth construction.

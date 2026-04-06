@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-04-06T01:18:23.060261+00:00",
+  "python": "3.12.8 (main, Dec 19 2024, 14:33:20) [Clang 18.1.8 ]",
+  "seed": 42,
+  "models": [
+    "gpt-4.1",
+    "gpt-5"
+  ],
+  "n_runs_per_cell": 2,
+  "target_genres": [
+    "Action",
+    "Adventure",
+    "Animation",
+    "Comedy",
+    "Drama",
+    "Horror",
+    "Romance",
+    "Sci-Fi",
+    "Thriller"
+  ],
+  "subreddits": [
+    "movies",
+    "MovieSuggestions",
+    "Letterboxd",
+    "TrueFilm"
+  ]
+}

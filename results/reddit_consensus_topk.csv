@@ -1,0 +1,181 @@
+genre,rank,movieId,title,year,count
+Action,1,101415,"First Time, The",2012.0,23
+Action,2,115149,John Wick,2014.0,17
+Action,3,1036,Die Hard,1988.0,11
+Action,4,33237,San Francisco,1936.0,10
+Action,5,58559,"Dark Knight, The",2008.0,10
+Action,6,104339,In a World...,2013.0,10
+Action,7,3008,Last Night,1998.0,10
+Action,8,326,To Live (Huozhe),1994.0,10
+Action,9,91529,"Dark Knight Rises, The",2012.0,9
+Action,10,121231,It Follows,2014.0,9
+Action,11,5349,Spider-Man,2002.0,9
+Action,12,4197,Real Life,1979.0,9
+Action,13,3702,Mad Max,1979.0,9
+Action,14,4754,"Wicker Man, The",1973.0,8
+Action,15,47810,"Wicker Man, The",2006.0,8
+Action,16,135536,Suicide Squad,2016.0,8
+Action,17,423,Blown Away,1994.0,8
+Action,18,7016,Over the Top,1987.0,8
+Action,19,122882,Mad Max: Fury Road,2015.0,8
+Action,20,2722,Deep Blue Sea,1999.0,7
+Adventure,1,101415,"First Time, The",2012.0,20
+Adventure,2,3502,My Life,1993.0,12
+Adventure,3,90405,In Time,2011.0,12
+Adventure,4,104339,In a World...,2013.0,11
+Adventure,5,4197,Real Life,1979.0,11
+Adventure,6,326,To Live (Huozhe),1994.0,11
+Adventure,7,1204,Lawrence of Arabia,1962.0,9
+Adventure,8,5349,Spider-Man,2002.0,8
+Adventure,9,6750,Anything Else,2003.0,8
+Adventure,10,1036,Die Hard,1988.0,8
+Adventure,11,3702,Mad Max,1979.0,8
+Adventure,12,122882,Mad Max: Fury Road,2015.0,8
+Adventure,13,115149,John Wick,2014.0,7
+Adventure,14,1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark),1981.0,7
+Adventure,15,2019,Seven Samurai (Shichinin no samurai),1954.0,7
+Adventure,16,2116,"Lord of the Rings, The",1978.0,7
+Adventure,17,1,Toy Story,1995.0,6
+Adventure,18,423,Blown Away,1994.0,6
+Adventure,19,7016,Over the Top,1987.0,6
+Adventure,20,104863,What If,2013.0,6
+Animation,1,101415,"First Time, The",2012.0,24
+Animation,2,4197,Real Life,1979.0,13
+Animation,3,5349,Spider-Man,2002.0,12
+Animation,4,168250,Get Out,2017.0,11
+Animation,5,6750,Anything Else,2003.0,10
+Animation,6,104339,In a World...,2013.0,10
+Animation,7,326,To Live (Huozhe),1994.0,10
+Animation,8,1,Toy Story,1995.0,9
+Animation,9,423,Blown Away,1994.0,8
+Animation,10,149334,Nocturnal Animals,,8
+Animation,11,364,"Lion King, The",1994.0,7
+Animation,12,3502,My Life,1993.0,7
+Animation,13,134853,Inside Out,2015.0,7
+Animation,14,112852,Guardians of the Galaxy,2014.0,7
+Animation,15,58559,"Dark Knight, The",2008.0,7
+Animation,16,5618,Spirited Away (Sen to Chihiro no kamikakushi),2001.0,7
+Animation,17,76093,How to Train Your Dragon,2010.0,6
+Animation,18,107630,High School,2010.0,6
+Animation,19,98230,10 Years,2011.0,6
+Animation,20,541,Blade Runner,1982.0,6
+Comedy,1,101415,"First Time, The",2012.0,24
+Comedy,2,7016,Over the Top,1987.0,11
+Comedy,3,6750,Anything Else,2003.0,10
+Comedy,4,104339,In a World...,2013.0,10
+Comedy,5,4296,Love Story,1970.0,10
+Comedy,6,90405,In Time,2011.0,10
+Comedy,7,3008,Last Night,1998.0,10
+Comedy,8,423,Blown Away,1994.0,9
+Comedy,9,1732,"Big Lebowski, The",1998.0,9
+Comedy,10,107630,High School,2010.0,8
+Comedy,11,168250,Get Out,2017.0,8
+Comedy,12,4197,Real Life,1979.0,8
+Comedy,13,3502,My Life,1993.0,7
+Comedy,14,56782,There Will Be Blood,2007.0,7
+Comedy,15,134095,My Love,2006.0,6
+Comedy,16,158238,The Nice Guys,2016.0,6
+Comedy,17,104374,About Time,2013.0,6
+Comedy,18,109578,Non-Stop,2014.0,6
+Comedy,19,4007,Wall Street,1987.0,6
+Comedy,20,58559,"Dark Knight, The",2008.0,5
+Drama,1,101415,"First Time, The",2012.0,26
+Drama,2,4197,Real Life,1979.0,17
+Drama,3,90405,In Time,2011.0,15
+Drama,4,6750,Anything Else,2003.0,13
+Drama,5,104339,In a World...,2013.0,12
+Drama,6,3502,My Life,1993.0,11
+Drama,7,7016,Over the Top,1987.0,11
+Drama,8,107630,High School,2010.0,10
+Drama,9,4296,Love Story,1970.0,10
+Drama,10,326,To Live (Huozhe),1994.0,10
+Drama,11,3008,Last Night,1998.0,9
+Drama,12,1036,Die Hard,1988.0,9
+Drama,13,423,Blown Away,1994.0,8
+Drama,14,5349,Spider-Man,2002.0,8
+Drama,15,3702,Mad Max,1979.0,8
+Drama,16,58559,"Dark Knight, The",2008.0,7
+Drama,17,7139,In America,2002.0,7
+Drama,18,215,Before Sunrise,1995.0,7
+Drama,19,1204,Lawrence of Arabia,1962.0,7
+Drama,20,122882,Mad Max: Fury Road,2015.0,7
+Horror,1,101415,"First Time, The",2012.0,23
+Horror,2,4754,"Wicker Man, The",1973.0,16
+Horror,3,47810,"Wicker Man, The",2006.0,16
+Horror,4,33237,San Francisco,1936.0,15
+Horror,5,3617,Road Trip,2000.0,14
+Horror,6,135536,Suicide Squad,2016.0,14
+Horror,7,2722,Deep Blue Sea,1999.0,13
+Horror,8,5463,Reign of Fire,2002.0,13
+Horror,9,58559,"Dark Knight, The",2008.0,13
+Horror,10,121231,It Follows,2014.0,13
+Horror,11,143031,Jump In!,2007.0,13
+Horror,12,326,To Live (Huozhe),1994.0,13
+Horror,13,6750,Anything Else,2003.0,12
+Horror,14,168250,Get Out,2017.0,12
+Horror,15,4124,Jaws: The Revenge,1987.0,11
+Horror,16,91529,"Dark Knight Rises, The",2012.0,11
+Horror,17,104339,In a World...,2013.0,11
+Horror,18,4197,Real Life,1979.0,11
+Horror,19,3008,Last Night,1998.0,11
+Horror,20,5419,Scooby-Doo,2002.0,10
+Romance,1,101415,"First Time, The",2012.0,30
+Romance,2,104339,In a World...,2013.0,17
+Romance,3,4296,Love Story,1970.0,17
+Romance,4,4197,Real Life,1979.0,16
+Romance,5,215,Before Sunrise,1995.0,14
+Romance,6,326,To Live (Huozhe),1994.0,14
+Romance,7,3502,My Life,1993.0,13
+Romance,8,5349,Spider-Man,2002.0,11
+Romance,9,1036,Die Hard,1988.0,11
+Romance,10,168250,Get Out,2017.0,10
+Romance,11,279,My Family,1995.0,9
+Romance,12,6750,Anything Else,2003.0,9
+Romance,13,555,True Romance,1993.0,9
+Romance,14,90405,In Time,2011.0,9
+Romance,15,423,Blown Away,1994.0,8
+Romance,16,33237,San Francisco,1936.0,8
+Romance,17,3617,Road Trip,2000.0,8
+Romance,18,7139,In America,2002.0,8
+Romance,19,3702,Mad Max,1979.0,8
+Romance,20,122882,Mad Max: Fury Road,2015.0,8
+Sci-Fi,1,101415,"First Time, The",2012.0,17
+Sci-Fi,2,541,Blade Runner,1982.0,16
+Sci-Fi,3,326,To Live (Huozhe),1994.0,15
+Sci-Fi,4,3702,Mad Max,1979.0,14
+Sci-Fi,5,90405,In Time,2011.0,14
+Sci-Fi,6,1036,Die Hard,1988.0,13
+Sci-Fi,7,122882,Mad Max: Fury Road,2015.0,11
+Sci-Fi,8,104339,In a World...,2013.0,11
+Sci-Fi,9,1208,Apocalypse Now,1979.0,8
+Sci-Fi,10,3502,My Life,1993.0,8
+Sci-Fi,11,115713,Ex Machina,2015.0,8
+Sci-Fi,12,4197,Real Life,1979.0,8
+Sci-Fi,13,924,2001: A Space Odyssey,1968.0,8
+Sci-Fi,14,215,Before Sunrise,1995.0,7
+Sci-Fi,15,176371,Blade Runner 2049,2017.0,7
+Sci-Fi,16,423,Blown Away,1994.0,6
+Sci-Fi,17,5349,Spider-Man,2002.0,6
+Sci-Fi,18,6188,Old School,2003.0,6
+Sci-Fi,19,6750,Anything Else,2003.0,6
+Sci-Fi,20,107630,High School,2010.0,6
+Thriller,1,101415,"First Time, The",2012.0,26
+Thriller,2,4197,Real Life,1979.0,14
+Thriller,3,104339,In a World...,2013.0,12
+Thriller,4,423,Blown Away,1994.0,11
+Thriller,5,3502,My Life,1993.0,11
+Thriller,6,5349,Spider-Man,2002.0,11
+Thriller,7,168250,Get Out,2017.0,11
+Thriller,8,115149,John Wick,2014.0,10
+Thriller,9,3008,Last Night,1998.0,10
+Thriller,10,58559,"Dark Knight, The",2008.0,10
+Thriller,11,6750,Anything Else,2003.0,9
+Thriller,12,4296,Love Story,1970.0,9
+Thriller,13,90405,In Time,2011.0,9
+Thriller,14,74458,Shutter Island,2010.0,9
+Thriller,15,326,To Live (Huozhe),1994.0,9
+Thriller,16,7016,Over the Top,1987.0,8
+Thriller,17,88179,One Day,2011.0,8
+Thriller,18,648,Mission: Impossible,1996.0,8
+Thriller,19,3702,Mad Max,1979.0,8
+Thriller,20,174727,Good Time,2017.0,7

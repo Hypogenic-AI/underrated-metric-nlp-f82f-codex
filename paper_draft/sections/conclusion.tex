@@ -1,0 +1,5 @@
+\section{Conclusion}
+\label{sec:conclusion}
+We presented \benchmarkname, a reproducible evaluation for ``most underrated X'' prompting that combines data-grounded underratedness with social-consensus overlap and robustness checks. Across two models, nine genres, and three prompt conditions, we find that anti-consensus prompting can reduce obviousness, most clearly for \gptfourone (overlap-hit 38.9\% baseline to 11.1\% in anti-consensus+reasoned). However, corrected statistical tests do not confirm significant \texttt{UNS\_hit} gains in this pilot setup.
+
+The key takeaway is that ``most underrated'' prompts are promising diagnostics, but measurement quality determines conclusion quality. Future work should add human-labeled obviousness judgments at scale, expand coverage with larger catalogs (\eg MovieLens-25M plus metadata linkage), and enforce schema-level output constraints to prevent parsing artifacts. We also plan to test cross-domain transfer beyond movies to evaluate whether the same anti-consensus patterns hold in other discovery tasks.

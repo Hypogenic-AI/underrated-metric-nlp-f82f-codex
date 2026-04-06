@@ -1,0 +1,9 @@
+PDF: papers/2406.14169_optimizing_novelty_of_top_k_recommendations_using_large_lang.pdf
+Total pages: 11
+Pages per chunk: 3
+
+Chunks:
+  2406.14169_optimizing_novelty_of_top_k_recommendations_using_large_lang_chunk_001.pdf: pages 1-3
+  2406.14169_optimizing_novelty_of_top_k_recommendations_using_large_lang_chunk_002.pdf: pages 4-6
+  2406.14169_optimizing_novelty_of_top_k_recommendations_using_large_lang_chunk_003.pdf: pages 7-9
+  2406.14169_optimizing_novelty_of_top_k_recommendations_using_large_lang_chunk_004.pdf: pages 10-11

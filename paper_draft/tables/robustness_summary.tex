@@ -1,0 +1,20 @@
+\begin{table*}[t]
+\centering
+\caption{Robustness summary by model and prompt condition. Higher \texttt{UNS\_hit Mean} is better; lower overlap and parse error are better. Best \texttt{UNS\_hit Mean} per model is in \textbf{bold}.}
+\label{tab:robust_summary}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}llrrrrrr@{}}
+\toprule
+Model & Condition & $N$ & \texttt{UNS\_hit Mean} & Overlap Hit Rate & Reddit Hits Mean & Match Rate & Parse Error Rate \\
+\midrule
+\gptfourone & Baseline & 18 & 0.562 & 0.389 & 24.667 & \textbf{0.889} & \textbf{0.000} \\
+\gptfourone & Anti-Consensus & 18 & 0.542 & 0.222 & 6.722 & 0.778 & \textbf{0.000} \\
+\gptfourone & Anti-Consensus+Reasoned & 18 & \textbf{0.669} & 0.111 & 8.167 & 0.722 & \textbf{0.000} \\
+\midrule
+\gptfive & Baseline & 18 & \textbf{0.468} & 0.333 & 11.278 & \textbf{0.667} & 0.167 \\
+\gptfive & Anti-Consensus & 18 & 0.421 & \textbf{0.000} & \textbf{0.000} & 0.056 & 1.000 \\
+\gptfive & Anti-Consensus+Reasoned & 18 & 0.400 & \textbf{0.000} & \textbf{0.000} & 0.000 & 1.000 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table*}

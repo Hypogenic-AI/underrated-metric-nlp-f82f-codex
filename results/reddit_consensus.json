@@ -1,0 +1,1100 @@
+{
+  "Action": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 23
+    },
+    {
+      "movieId": 115149,
+      "title": "John Wick",
+      "year": 2014,
+      "count": 17
+    },
+    {
+      "movieId": 1036,
+      "title": "Die Hard",
+      "year": 1988,
+      "count": 11
+    },
+    {
+      "movieId": 33237,
+      "title": "San Francisco",
+      "year": 1936,
+      "count": 10
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 10
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 10
+    },
+    {
+      "movieId": 3008,
+      "title": "Last Night",
+      "year": 1998,
+      "count": 10
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 10
+    },
+    {
+      "movieId": 91529,
+      "title": "Dark Knight Rises, The",
+      "year": 2012,
+      "count": 9
+    },
+    {
+      "movieId": 121231,
+      "title": "It Follows",
+      "year": 2014,
+      "count": 9
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 9
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 9
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 9
+    },
+    {
+      "movieId": 4754,
+      "title": "Wicker Man, The",
+      "year": 1973,
+      "count": 8
+    },
+    {
+      "movieId": 47810,
+      "title": "Wicker Man, The",
+      "year": 2006,
+      "count": 8
+    },
+    {
+      "movieId": 135536,
+      "title": "Suicide Squad",
+      "year": 2016,
+      "count": 8
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 8
+    },
+    {
+      "movieId": 7016,
+      "title": "Over the Top",
+      "year": 1987,
+      "count": 8
+    },
+    {
+      "movieId": 122882,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "count": 8
+    },
+    {
+      "movieId": 2722,
+      "title": "Deep Blue Sea",
+      "year": 1999,
+      "count": 7
+    }
+  ],
+  "Adventure": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 20
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 12
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 12
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 11
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 11
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 11
+    },
+    {
+      "movieId": 1204,
+      "title": "Lawrence of Arabia",
+      "year": 1962,
+      "count": 9
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 8
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 8
+    },
+    {
+      "movieId": 1036,
+      "title": "Die Hard",
+      "year": 1988,
+      "count": 8
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 122882,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "count": 8
+    },
+    {
+      "movieId": 115149,
+      "title": "John Wick",
+      "year": 2014,
+      "count": 7
+    },
+    {
+      "movieId": 1198,
+      "title": "Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark)",
+      "year": 1981,
+      "count": 7
+    },
+    {
+      "movieId": 2019,
+      "title": "Seven Samurai (Shichinin no samurai)",
+      "year": 1954,
+      "count": 7
+    },
+    {
+      "movieId": 2116,
+      "title": "Lord of the Rings, The",
+      "year": 1978,
+      "count": 7
+    },
+    {
+      "movieId": 1,
+      "title": "Toy Story",
+      "year": 1995,
+      "count": 6
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 6
+    },
+    {
+      "movieId": 7016,
+      "title": "Over the Top",
+      "year": 1987,
+      "count": 6
+    },
+    {
+      "movieId": 104863,
+      "title": "What If",
+      "year": 2013,
+      "count": 6
+    }
+  ],
+  "Animation": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 24
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 13
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 12
+    },
+    {
+      "movieId": 168250,
+      "title": "Get Out",
+      "year": 2017,
+      "count": 11
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 10
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 10
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 10
+    },
+    {
+      "movieId": 1,
+      "title": "Toy Story",
+      "year": 1995,
+      "count": 9
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 8
+    },
+    {
+      "movieId": 149334,
+      "title": "Nocturnal Animals",
+      "year": null,
+      "count": 8
+    },
+    {
+      "movieId": 364,
+      "title": "Lion King, The",
+      "year": 1994,
+      "count": 7
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 7
+    },
+    {
+      "movieId": 134853,
+      "title": "Inside Out",
+      "year": 2015,
+      "count": 7
+    },
+    {
+      "movieId": 112852,
+      "title": "Guardians of the Galaxy",
+      "year": 2014,
+      "count": 7
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 7
+    },
+    {
+      "movieId": 5618,
+      "title": "Spirited Away (Sen to Chihiro no kamikakushi)",
+      "year": 2001,
+      "count": 7
+    },
+    {
+      "movieId": 76093,
+      "title": "How to Train Your Dragon",
+      "year": 2010,
+      "count": 6
+    },
+    {
+      "movieId": 107630,
+      "title": "High School",
+      "year": 2010,
+      "count": 6
+    },
+    {
+      "movieId": 98230,
+      "title": "10 Years",
+      "year": 2011,
+      "count": 6
+    },
+    {
+      "movieId": 541,
+      "title": "Blade Runner",
+      "year": 1982,
+      "count": 6
+    }
+  ],
+  "Comedy": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 24
+    },
+    {
+      "movieId": 7016,
+      "title": "Over the Top",
+      "year": 1987,
+      "count": 11
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 10
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 10
+    },
+    {
+      "movieId": 4296,
+      "title": "Love Story",
+      "year": 1970,
+      "count": 10
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 10
+    },
+    {
+      "movieId": 3008,
+      "title": "Last Night",
+      "year": 1998,
+      "count": 10
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 9
+    },
+    {
+      "movieId": 1732,
+      "title": "Big Lebowski, The",
+      "year": 1998,
+      "count": 9
+    },
+    {
+      "movieId": 107630,
+      "title": "High School",
+      "year": 2010,
+      "count": 8
+    },
+    {
+      "movieId": 168250,
+      "title": "Get Out",
+      "year": 2017,
+      "count": 8
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 7
+    },
+    {
+      "movieId": 56782,
+      "title": "There Will Be Blood",
+      "year": 2007,
+      "count": 7
+    },
+    {
+      "movieId": 134095,
+      "title": "My Love",
+      "year": 2006,
+      "count": 6
+    },
+    {
+      "movieId": 158238,
+      "title": "The Nice Guys",
+      "year": 2016,
+      "count": 6
+    },
+    {
+      "movieId": 104374,
+      "title": "About Time",
+      "year": 2013,
+      "count": 6
+    },
+    {
+      "movieId": 109578,
+      "title": "Non-Stop",
+      "year": 2014,
+      "count": 6
+    },
+    {
+      "movieId": 4007,
+      "title": "Wall Street",
+      "year": 1987,
+      "count": 6
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 5
+    }
+  ],
+  "Drama": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 26
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 17
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 15
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 13
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 12
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 11
+    },
+    {
+      "movieId": 7016,
+      "title": "Over the Top",
+      "year": 1987,
+      "count": 11
+    },
+    {
+      "movieId": 107630,
+      "title": "High School",
+      "year": 2010,
+      "count": 10
+    },
+    {
+      "movieId": 4296,
+      "title": "Love Story",
+      "year": 1970,
+      "count": 10
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 10
+    },
+    {
+      "movieId": 3008,
+      "title": "Last Night",
+      "year": 1998,
+      "count": 9
+    },
+    {
+      "movieId": 1036,
+      "title": "Die Hard",
+      "year": 1988,
+      "count": 9
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 8
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 8
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 7
+    },
+    {
+      "movieId": 7139,
+      "title": "In America",
+      "year": 2002,
+      "count": 7
+    },
+    {
+      "movieId": 215,
+      "title": "Before Sunrise",
+      "year": 1995,
+      "count": 7
+    },
+    {
+      "movieId": 1204,
+      "title": "Lawrence of Arabia",
+      "year": 1962,
+      "count": 7
+    },
+    {
+      "movieId": 122882,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "count": 7
+    }
+  ],
+  "Horror": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 23
+    },
+    {
+      "movieId": 4754,
+      "title": "Wicker Man, The",
+      "year": 1973,
+      "count": 16
+    },
+    {
+      "movieId": 47810,
+      "title": "Wicker Man, The",
+      "year": 2006,
+      "count": 16
+    },
+    {
+      "movieId": 33237,
+      "title": "San Francisco",
+      "year": 1936,
+      "count": 15
+    },
+    {
+      "movieId": 3617,
+      "title": "Road Trip",
+      "year": 2000,
+      "count": 14
+    },
+    {
+      "movieId": 135536,
+      "title": "Suicide Squad",
+      "year": 2016,
+      "count": 14
+    },
+    {
+      "movieId": 2722,
+      "title": "Deep Blue Sea",
+      "year": 1999,
+      "count": 13
+    },
+    {
+      "movieId": 5463,
+      "title": "Reign of Fire",
+      "year": 2002,
+      "count": 13
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 13
+    },
+    {
+      "movieId": 121231,
+      "title": "It Follows",
+      "year": 2014,
+      "count": 13
+    },
+    {
+      "movieId": 143031,
+      "title": "Jump In!",
+      "year": 2007,
+      "count": 13
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 13
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 12
+    },
+    {
+      "movieId": 168250,
+      "title": "Get Out",
+      "year": 2017,
+      "count": 12
+    },
+    {
+      "movieId": 4124,
+      "title": "Jaws: The Revenge",
+      "year": 1987,
+      "count": 11
+    },
+    {
+      "movieId": 91529,
+      "title": "Dark Knight Rises, The",
+      "year": 2012,
+      "count": 11
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 11
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 11
+    },
+    {
+      "movieId": 3008,
+      "title": "Last Night",
+      "year": 1998,
+      "count": 11
+    },
+    {
+      "movieId": 5419,
+      "title": "Scooby-Doo",
+      "year": 2002,
+      "count": 10
+    }
+  ],
+  "Romance": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 30
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 17
+    },
+    {
+      "movieId": 4296,
+      "title": "Love Story",
+      "year": 1970,
+      "count": 17
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 16
+    },
+    {
+      "movieId": 215,
+      "title": "Before Sunrise",
+      "year": 1995,
+      "count": 14
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 14
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 13
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 11
+    },
+    {
+      "movieId": 1036,
+      "title": "Die Hard",
+      "year": 1988,
+      "count": 11
+    },
+    {
+      "movieId": 168250,
+      "title": "Get Out",
+      "year": 2017,
+      "count": 10
+    },
+    {
+      "movieId": 279,
+      "title": "My Family",
+      "year": 1995,
+      "count": 9
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 9
+    },
+    {
+      "movieId": 555,
+      "title": "True Romance",
+      "year": 1993,
+      "count": 9
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 9
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 8
+    },
+    {
+      "movieId": 33237,
+      "title": "San Francisco",
+      "year": 1936,
+      "count": 8
+    },
+    {
+      "movieId": 3617,
+      "title": "Road Trip",
+      "year": 2000,
+      "count": 8
+    },
+    {
+      "movieId": 7139,
+      "title": "In America",
+      "year": 2002,
+      "count": 8
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 122882,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "count": 8
+    }
+  ],
+  "Sci-Fi": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 17
+    },
+    {
+      "movieId": 541,
+      "title": "Blade Runner",
+      "year": 1982,
+      "count": 16
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 15
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 14
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 14
+    },
+    {
+      "movieId": 1036,
+      "title": "Die Hard",
+      "year": 1988,
+      "count": 13
+    },
+    {
+      "movieId": 122882,
+      "title": "Mad Max: Fury Road",
+      "year": 2015,
+      "count": 11
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 11
+    },
+    {
+      "movieId": 1208,
+      "title": "Apocalypse Now",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 8
+    },
+    {
+      "movieId": 115713,
+      "title": "Ex Machina",
+      "year": 2015,
+      "count": 8
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 924,
+      "title": "2001: A Space Odyssey",
+      "year": 1968,
+      "count": 8
+    },
+    {
+      "movieId": 215,
+      "title": "Before Sunrise",
+      "year": 1995,
+      "count": 7
+    },
+    {
+      "movieId": 176371,
+      "title": "Blade Runner 2049",
+      "year": 2017,
+      "count": 7
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 6
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 6
+    },
+    {
+      "movieId": 6188,
+      "title": "Old School",
+      "year": 2003,
+      "count": 6
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 6
+    },
+    {
+      "movieId": 107630,
+      "title": "High School",
+      "year": 2010,
+      "count": 6
+    }
+  ],
+  "Thriller": [
+    {
+      "movieId": 101415,
+      "title": "First Time, The",
+      "year": 2012,
+      "count": 26
+    },
+    {
+      "movieId": 4197,
+      "title": "Real Life",
+      "year": 1979,
+      "count": 14
+    },
+    {
+      "movieId": 104339,
+      "title": "In a World...",
+      "year": 2013,
+      "count": 12
+    },
+    {
+      "movieId": 423,
+      "title": "Blown Away",
+      "year": 1994,
+      "count": 11
+    },
+    {
+      "movieId": 3502,
+      "title": "My Life",
+      "year": 1993,
+      "count": 11
+    },
+    {
+      "movieId": 5349,
+      "title": "Spider-Man",
+      "year": 2002,
+      "count": 11
+    },
+    {
+      "movieId": 168250,
+      "title": "Get Out",
+      "year": 2017,
+      "count": 11
+    },
+    {
+      "movieId": 115149,
+      "title": "John Wick",
+      "year": 2014,
+      "count": 10
+    },
+    {
+      "movieId": 3008,
+      "title": "Last Night",
+      "year": 1998,
+      "count": 10
+    },
+    {
+      "movieId": 58559,
+      "title": "Dark Knight, The",
+      "year": 2008,
+      "count": 10
+    },
+    {
+      "movieId": 6750,
+      "title": "Anything Else",
+      "year": 2003,
+      "count": 9
+    },
+    {
+      "movieId": 4296,
+      "title": "Love Story",
+      "year": 1970,
+      "count": 9
+    },
+    {
+      "movieId": 90405,
+      "title": "In Time",
+      "year": 2011,
+      "count": 9
+    },
+    {
+      "movieId": 74458,
+      "title": "Shutter Island",
+      "year": 2010,
+      "count": 9
+    },
+    {
+      "movieId": 326,
+      "title": "To Live (Huozhe)",
+      "year": 1994,
+      "count": 9
+    },
+    {
+      "movieId": 7016,
+      "title": "Over the Top",
+      "year": 1987,
+      "count": 8
+    },
+    {
+      "movieId": 88179,
+      "title": "One Day",
+      "year": 2011,
+      "count": 8
+    },
+    {
+      "movieId": 648,
+      "title": "Mission: Impossible",
+      "year": 1996,
+      "count": 8
+    },
+    {
+      "movieId": 3702,
+      "title": "Mad Max",
+      "year": 1979,
+      "count": 8
+    },
+    {
+      "movieId": 174727,
+      "title": "Good Time",
+      "year": 2017,
+      "count": 7
+    }
+  ]
+}

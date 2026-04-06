@@ -1,0 +1,21 @@
+\section{Introduction}
+\label{sec:introduction}
+Large language models are increasingly used for ideation and discovery tasks where users explicitly ask for non-obvious answers. A common prompt form is ``what is the most underrated X?'' The practical question is whether models actually discover less-obvious candidates or simply repeat socially familiar ``underrated'' examples.
+
+\para{Why this matters.} If models mostly echo crowd consensus under an ``underrated'' prompt, their value for discovery is limited. This matters for recommendation-adjacent use cases, creative brainstorming, and any workflow that needs high-quality novelty instead of safe repetition.
+
+\para{Gap.} Prior work has established decoding degeneration and diversity limitations in open-ended generation \citep{holtzman2019curious,vijayakumar2016diverse}. Other work studies distributional or lexical novelty \citep{pillutla2021mauve} and novelty-aware ranking \citep{sharma2024optimizing}. However, there is no standard benchmark for the specific behavior of ``most underrated X'' prompts: balancing anti-consensus novelty with plausibility and quality.
+
+\para{Our approach.} We propose \benchmarkname, a reproducible diagnostic that integrates three signals: (1) overlap with mined ``underrated'' discourse on \reddit as an obviousness proxy, (2) a data-grounded underratedness percentile from \movielens, and (3) output validity/matching checks. We run real API calls for \gptfourone and \gptfive across 9 genres, 3 prompt conditions, and 2 runs per condition.
+
+\para{Quantitative preview.} In robustness analysis, \gptfourone shows a clear directional overlap drop under anti-consensus prompting: 38.9\% overlap-hit rate in baseline, 22.2\% in anti-consensus, and 11.1\% in anti-consensus+reasoned. The best mean robustness composite score is also from anti-consensus+reasoned (0.669). Yet none of the pairwise \uns improvements remains significant after Holm correction.
+
+Our contributions are:
+\begin{itemize}
+    \item We formulate a practical ``underrated novelty'' diagnostic that explicitly combines anti-consensus and data-grounded underratedness criteria.
+    \item We conduct controlled API experiments across models, genres, and prompt interventions with paired statistical testing and multiple-comparison correction.
+    \item We provide a robustness analysis showing directional gains in overlap reduction but limited corrected statistical significance in this pilot scale.
+    \item We identify concrete benchmark risks, including noisy consensus mining and structured-output fragility, and provide a reproducible artifact set for follow-up work.
+\end{itemize}
+
+The rest of the paper is organized as follows. \Secref{sec:related_work} positions our approach in prior novelty and diversity research. \Secref{sec:methodology} describes data construction and evaluation. \Secref{sec:results} reports quantitative findings, followed by implications and limitations in \Secref{sec:discussion}.

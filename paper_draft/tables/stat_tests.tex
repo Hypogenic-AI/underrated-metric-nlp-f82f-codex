@@ -1,0 +1,17 @@
+\begin{table}[t]
+\centering
+\caption{Paired robustness tests (\texttt{UNS\_hit}). No comparison remains significant after Holm correction.}
+\label{tab:robust_tests}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{@{}llrrrr@{}}
+\toprule
+Model & Comparison & $\Delta$\texttt{UNS\_hit} & Permutation $p$ & Holm-adjusted $p$ & Cohen's $d$ \\
+\midrule
+\gptfourone & Baseline vs Anti-Consensus & -0.020 & 0.826 & 0.826 & -0.052 \\
+\gptfourone & Baseline vs Anti-Consensus+Reasoned & +0.107 & 0.141 & 0.492 & +0.358 \\
+\gptfive & Baseline vs Anti-Consensus & -0.047 & 0.347 & 0.694 & -0.228 \\
+\gptfive & Baseline vs Anti-Consensus+Reasoned & -0.068 & 0.123 & 0.492 & -0.387 \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

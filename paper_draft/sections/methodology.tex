@@ -1,0 +1,52 @@
+\section{Methodology}
+\label{sec:methodology}
+\para{Research question and hypothesis.} We ask whether ``most underrated X'' prompts can diagnose novelty limitations in LLMs. Our core hypothesis is that baseline prompting yields socially obvious outputs (high overlap with popular \reddit discourse), while anti-consensus prompting reduces this overlap and can improve composite underrated novelty.
+
+\subsection{Data Sources and Construction}
+We use \movielens (latest small) with 9{,}742 movies and 100{,}836 ratings. We collect 3{,}600 \reddit posts from \texttt{r/movies}, \texttt{r/MovieSuggestions}, \texttt{r/Letterboxd}, and \texttt{r/TrueFilm} using underrated+genre queries.
+
+For each movie, we compute:
+\begin{equation}
+\text{underrated\_raw} = z(\text{avg\_rating}) - z(\log(1+\text{rating\_count})).
+\end{equation}
+We convert this value into a percentile score (\texttt{underrated\_pct}) globally and within genre.
+
+Data quality checks report 0\% missing values in core aggregates, no duplicate \texttt{movieId}, and 3{,}600 collected posts.
+
+\subsection{Experimental Design}
+This is an evaluation-only study (no model training). We run a full factorial grid:
+\begin{itemize}
+    \item Models: \gptfourone and \gptfive (low reasoning effort).
+    \item Genres: 9 MovieLens genres.
+    \item Prompt conditions: \baseline, \anti, \antir.
+    \item Repeated runs: 2 per cell.
+\end{itemize}
+Total outputs: 2 $\times$ 9 $\times$ 3 $\times$ 2 = 108.
+
+We parse strict JSON outputs (title, year, rationale), then fuzzy-match generated titles to MovieLens entries with year-aware constraints (threshold 75).
+
+\subsection{Metrics}
+We report four metrics:
+\begin{itemize}
+    \item \texttt{underrated\_pct}: percentile underratedness from \movielens.
+    \item \texttt{consensus\_overlap}: overlap with mined subreddit consensus lists (primary, noisier).
+    \item \texttt{overlap\_hit}: binary overlap using direct query hits for ``\texttt{<title> underrated movie}'' with threshold 5 posts.
+    \item Robustness composite score:
+\end{itemize}
+\begin{equation}
+\text{UNS\_hit} = 0.6\cdot\texttt{underrated\_pct} + 0.4\cdot(1-\texttt{overlap\_hit}).
+\end{equation}
+
+\subsection{Statistical Analysis and Reproducibility}
+We use paired permutation tests and report paired Cohen's $d$ for condition comparisons within each model. We correct for multiple comparisons with Holm adjustment at $\alpha=0.05$.
+
+Implementation details: Python 3.12.8; openai 2.30.0; pandas 3.0.2; numpy 2.4.4; scipy 1.17.1; statsmodels 0.14.6. Analysis seed is 42. Runtime for the main run is approximately 500 seconds. Hardware includes two RTX 3090 GPUs, though inference uses API calls rather than local model training.
+
+\subsection{Baselines and Prompt Interventions}
+We compare three prompt families for each genre:
+\begin{itemize}
+    \item \baseline: ``What is the most underrated [genre] movie? Return one title and year.''
+    \item \anti: instruction to avoid common crowd-cited picks.
+    \item \antir: anti-consensus instruction plus short rationale requirement tied to under-recognition.
+\end{itemize}
+These prompt variants function as our baseline/intervention design for testing whether observed novelty behavior is prompt-sensitive.

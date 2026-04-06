@@ -1,0 +1,21 @@
+\section{Results}
+\label{sec:results}
+\input{tables/robustness_summary}
+\input{tables/stat_tests}
+
+\begin{figure*}[t]
+    \centering
+    \includegraphics[width=0.32\textwidth]{figures/uns_by_condition_model.png}\hfill
+    \includegraphics[width=0.32\textwidth]{figures/consensus_overlap_by_condition_model.png}\hfill
+    \includegraphics[width=0.32\textwidth]{figures/uns_by_genre_condition_boxplot.png}
+    \caption{Robustness visualizations. Left: \texttt{UNS\_hit} by model and condition. Middle: overlap behavior by condition. Right: genre-level variability of \texttt{UNS\_hit}. Together, the plots show directional overlap reduction for \gptfourone under anti-consensus prompting, alongside substantial variance and non-significant corrected tests.}
+    \label{fig:robust_plots}
+\end{figure*}
+
+\para{Main quantitative findings.} \Tabref{tab:robust_summary} shows clear directional changes for \gptfourone. Moving from baseline to anti-consensus+reasoned reduces overlap-hit rate from 0.389 to 0.111 and increases mean \texttt{UNS\_hit} from 0.562 to 0.669 (+0.107). Baseline to anti-consensus also reduces overlap (0.389 to 0.222), but with a slight mean \texttt{UNS\_hit} decrease (-0.020).
+
+\para{Statistical tests.} \Tabref{tab:robust_tests} reports paired permutation tests with Holm correction. The largest positive effect is \gptfourone baseline vs anti-consensus+reasoned (Cohen's $d=+0.358$), but adjusted $p=0.492$, so it is not statistically significant at $\alpha=0.05$. No comparison survives correction.
+
+\para{Model-specific robustness differences.} \gptfive baseline produces usable outputs (match rate 0.667, parse error 0.167), while both anti-consensus variants collapse in structured extraction (parse error 1.000). This failure mode dominates downstream metrics and explains why \gptfive overlap-hit rates appear low yet \texttt{UNS\_hit} does not improve.
+
+\para{Ablation-style interpretation across prompt conditions.} Treating prompt condition as an intervention ablation, anti-consensus instructions reduce social obviousness for \gptfourone but do not guarantee higher composite novelty. Adding reasoned justification improves \texttt{UNS\_hit} directionally and yields the best overlap reduction for \gptfourone, suggesting that anti-consensus guidance plus rationale constraints is the strongest of the tested prompt variants.
