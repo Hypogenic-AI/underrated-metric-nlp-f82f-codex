@@ -1,0 +1,32 @@
+idea:
+  title: '''Most Underrated'' as a Novelty Metric'
+  domain: nlp
+  hypothesis: 'Large language models (LLMs) struggle with generating truly novel outputs,
+    particularly when asked to name the most underrated item in a category X. If LLMs
+    only identify items that are widely believed to be underrated (i.e., the ''obvious''
+    answers), this indicates a lack of deeper reasoning about novelty. Therefore,
+    evaluating LLMs on their ability to name genuinely underrated items can serve
+    as a diagnostic for their capacity for novelty and innovation.
+
+    '
+  background:
+    description: 'LLMs are currently poor at generating novel content, and the reasons
+      for this are not entirely clear. One way to assess whether LLMs possess the
+      necessary ''taste'' for novelty is to ask them to name the most underrated thing
+      in a given category. If their responses align with widely-held beliefs (such
+      as those found on popular subreddits), this does not count as true novelty.
+      The distinction between ''obvious'' and genuinely underrated is fuzzy, but initial
+      observations suggest that LLMs consistently fail this test, defaulting to the
+      obvious. If LLMs cannot reason about what is underrated for deeper reasons than
+      simply echoing popular sentiment, they may struggle to truly innovate.
+
+      '
+  metadata:
+    author: Ari Holtzman
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/UmbYQyYnr8fjZJ7GxXam
+    idea_id: _most_underrated__as_a_novelty_20260406_003616_6d1ab30a
+    created_at: '2026-04-06T00:36:16.111629'
+    status: submitted
+    github_repo_name: underrated-metric-nlp-f82f-codex
+    github_repo_url: https://github.com/Hypogenic-AI/underrated-metric-nlp-f82f-codex
